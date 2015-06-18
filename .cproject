@@ -28,16 +28,17 @@
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="com.sylixos.realcoder.targetPlatform.armsylixoseabi.1055843971" isAbstract="false" name="SylixOS TagetPlagform" osList="win32" superClass="com.sylixos.realcoder.targetPlatform.armsylixoseabi"/>
 							<builder id="com.sylixos.realcoder.builder.armsylixeabi.467321181" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="SylixOS Builder" superClass="com.sylixos.realcoder.builder.armsylixeabi"/>
 							<tool id="com.sylixos.realcoder.tool.armsylixeabi.1132842240" name="arm-sylixos-eabi-gcc" superClass="com.sylixos.realcoder.tool.armsylixeabi">
-								<option id="com.sylixos.realcoder.option.armsylixoseabi.include.490686168" superClass="com.sylixos.realcoder.option.armsylixoseabi.include" valueType="includePath">
+								<option id="com.sylixos.realcoder.option.armsylixoseabi.include.490686168" name="Include paths (-I)" superClass="com.sylixos.realcoder.option.armsylixoseabi.include" valueType="includePath">
 									<listOptionValue builtIn="false" value=".././libsylixos/SylixOS"/>
 									<listOptionValue builtIn="false" value=".././libsylixos/SylixOS/include"/>
 									<listOptionValue builtIn="false" value=".././libsylixos/SylixOS/include/inet"/>
 									<listOptionValue builtIn="false" value="&quot;${SYLIXOS_TOOLCHAIN_PATH}/${SYLIXOS_TOOLCHAIN_PREFIX}/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SYLIXOS_TOOLCHAIN_PATH}/lib/gcc/${SYLIXOS_TOOLCHAIN_PREFIX}/${SYLIXOS_TOOLCHAIN_VER}/include&quot;"/>
 								</option>
-								<option id="com.sylixos.realcoder.option.armsylixoseabi.DefinedSymbols.1072227103" superClass="com.sylixos.realcoder.option.armsylixoseabi.DefinedSymbols" valueType="definedSymbols">
+								<option id="com.sylixos.realcoder.option.armsylixoseabi.DefinedSymbols.1072227103" name="Defined symbols(-D)" superClass="com.sylixos.realcoder.option.armsylixoseabi.DefinedSymbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__GNUC__=4"/>
 									<listOptionValue builtIn="false" value="SYLIXOS"/>
+									<listOptionValue builtIn="false" value="__ARM_ARCH_7M__"/>
 								</option>
 								<inputType id="com.sylixos.realcoder.inputType.armnsylixeabic.1572497735" name="SylixOS Input C" superClass="com.sylixos.realcoder.inputType.armnsylixeabic"/>
 								<inputType id="com.sylixos.realcoder.inputType.armnsylixeabicpp.960736860" name="SylixOS Input CPP" superClass="com.sylixos.realcoder.inputType.armnsylixeabicpp"/>
@@ -56,4 +57,6 @@
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

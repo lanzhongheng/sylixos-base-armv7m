@@ -1,6 +1,6 @@
 all:
-	make -C libsylixos
-	make -C libcextern
+	make -C libsylixos -j 8
+	make -C libcextern -j 8
 
 clean:
 	make -C libsylixos clean
