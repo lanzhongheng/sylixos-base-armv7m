@@ -1,0 +1,6 @@
+[submodule "libcextern"]
+	path = libcextern
+	url = https://github.com/jiaojinxing/libcextern-armv7m.git
+[submodule "libsylixos"]
+	path = libsylixos
+	url = https://github.com/jiaojinxing/libsylixos-armv7m.git
